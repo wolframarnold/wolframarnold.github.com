@@ -66,6 +66,7 @@ Now that the RubyGems package management system is installed, we can install gem
 The RubyGems system already knows where to get them from, so all you need to do is this: (Use sudo or root on Mac & Linux)
 {% highlight bash %}
   gem install rspec
+  gem install rake
   gem install warnold-selenium-client
 {% endhighlight %}
 
