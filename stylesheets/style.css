@@ -1,5 +1,5 @@
 body {
-	background-image: url(images/pagebg.gif);
+	background-image: url(/images/pagebg.gif);
 	background-repeat: repeat;
 	background-color: #D7C9B4;
 	margin: 0px;
@@ -12,8 +12,9 @@ body {
 	color: #3C0000;
 }
 #header #logo {
-	background-image: url(images/logo.gif);
+	background-image: url(/images/logo.gif);
 	background-repeat: no-repeat;
+	background-position: 5px 0;
 	height: 151px;
 	width: 204px;
 	float: left;
@@ -24,9 +25,7 @@ body {
 	text-transform: capitalize;
 	font-weight: normal;
 	text-align: center;
-	margin-top: 30px;
-	margin-right: 25px;
-	margin-left: 20px;
+	margin-top: 15px;
 	color: #160000;
 }
 #header #topmenu {
@@ -48,7 +47,7 @@ body {
 
 
 #header {
-	background-image: url(images/bg.gif);
+	background-image: url(/images/bg.gif);
 	background-repeat: repeat-x;
 	height: 155px;
 	position:fixed;
@@ -58,7 +57,7 @@ body {
 	z-index:2;
 }
 #header #topmenu a {
-	background-image: url(images/topmenu.gif);
+	background-image: url(/images/topmenu.gif);
 	background-repeat: no-repeat;
 	display: block;
 	height: 26px;
@@ -82,7 +81,7 @@ body {
 	margin: 0px;
 	position:fixed;
 	list-style-image: none;
-	background-image: url(images/sidebar.gif);
+	background-image: url(/images/sidebar.gif);
 	height: 328px;
 	width: 191px;
 	top: 152px;
@@ -139,7 +138,7 @@ body {
 	padding: 3px;
 	background-color: #8D0000;
 	color: #B66B6B;
-	background-image: url(images/bg.gif);
+	background-image: url(/images/bg.gif);
 	background-position: 25px;
 }
 #contents #dashbar p {
@@ -164,7 +163,7 @@ body {
 	font-style:normal;
 	text-align:center;
 	background-color: #5D0000;
-	background-image: url(images/bg.gif);
+	background-image: url(/images/bg.gif);
 	background-repeat: repeat-x;
 	background-position: 0px -50px;
 	border-top-width: 2px;
@@ -172,7 +171,7 @@ body {
 	border-top-color: #310000;
       }
 #header #topmenu a:visited,active {
-	background-image: url(images/topmenu.gif);
+	background-image: url(/images/topmenu.gif);
 	background-repeat: no-repeat;
 	display: block;
 	height: 26px;
@@ -193,7 +192,7 @@ body {
 }
 #header #topmenu a:hover {
 
-	background-image: url(images/topmenu_h.gif);
+	background-image: url(/images/topmenu_h.gif);
 	background-repeat: no-repeat;
 	display: block;
 	height: 26px;
@@ -215,7 +214,7 @@ body {
 #header #topmenu .current a {
 
 
-	background-image: url(images/topmenu_h.gif);
+	background-image: url(/images/topmenu_h.gif);
 	background-repeat: no-repeat;
 	display: block;
 	height: 26px;
@@ -238,7 +237,7 @@ body {
 
 
 
-	background-image: url(images/topmenu_h.gif);
+	background-image: url(/images/topmenu_h.gif);
 	background-repeat: no-repeat;
 	display: block;
 	height: 26px;
@@ -292,7 +291,7 @@ body {
 #contents blockquote {
 	margin: 0px;
 	display: block;
-	background-image: url(images/quote.gif);
+	background-image: url(/images/quote.gif);
 	background-repeat: no-repeat;
 	padding-top: 5px;
 	padding-right: 5px;
@@ -318,7 +317,7 @@ body {
 }
 #contents li {
 	display: block;
-	background-image: url(images/list.gif);
+	background-image: url(/images/list.gif);
 	background-repeat: no-repeat;
 	padding-top: 3px;
 	padding-right: 3px;

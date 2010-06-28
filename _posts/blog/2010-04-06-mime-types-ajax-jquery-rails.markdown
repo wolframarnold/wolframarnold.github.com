@@ -1,5 +1,6 @@
 ---
-title: Unfaithful Mime Types: Ajax, jQuery and Rails
+layout: default
+title: "Unfaithful Mime Types: Ajax, jQuery and Rails"
 ---
 
 On redirect, FF Ajax loses accept header MIME type and drops back to text/html
