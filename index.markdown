@@ -2,5 +2,5 @@
 layout: default
 title: Home
 ---
-**Something here**
+Please see: [Selenium Training](/trainings/selenium/installation-setup/index.html)
 
