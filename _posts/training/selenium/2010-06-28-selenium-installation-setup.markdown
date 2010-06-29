@@ -82,7 +82,8 @@ Download:
 Unzip the archive, open a command shell and from within the project run:
 
 {% highlight ruby %}
-  rake spec
+  rake selenium:rc:start  (This starts Selenium Remote Control in the background)
+  rake spec               (This launches the test suite)
 {% endhighlight %}
 
 This runs a small selenium script (take a look at the file spec/google_spec.rb if you're curious) that launches a new Firefox window,
