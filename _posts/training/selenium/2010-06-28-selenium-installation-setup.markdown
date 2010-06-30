@@ -79,19 +79,39 @@ Download:
 
 [Selenium Tests Project](/downloads/selenium-course-tests.zip)
 
-Unzip the archive, open a command shell and from within the project run:
+Unzip the archive, open a command shell and start the Selenium RC server
+
+### on Windows
+
+{% highlight ruby %}
+java -jar vendor\selenium-remote-control\selenium-server.jar
+{% endhighlight %}
+
+### on Mac or Linux
 
 {% highlight ruby %}
   rake selenium:rc:start  (This starts Selenium Remote Control in the background)
+{% endhighlight %}
+
+### Run the tests
+
+Run the entire suite (all tests in the spec folder).  All test files must end in "_spec.rb" to be picked up by the suite.
+
+{% highlight ruby %}
   rake spec               (This launches the test suite)
 {% endhighlight %}
 
-This runs a small selenium script (take a look at the file spec/google_spec.rb if you're curious) that launches a new Firefox window,
-goes to Google, make a Google search query and checks for the results.
+To run only one test, you can use _either one_ of the following:
+
+{% highlight ruby %}
+  rake spec SPEC=spec/my_test_spec.rb
+  spec spec/my_test_spec.rb
+{% endhighlight %}
+
 
 If all goes well, you should see output like:
 {% highlight bash %}
   1 example, 0 failures
 {% endhighlight %}
-And there is a report file in tmp, acceptance_tests_report.html
 
+And there is a report file in tmp, acceptance_tests_report.html
