@@ -27,10 +27,10 @@ Here are some useful free choices:
 
 Free
 ----
-[Notepad++](http://notepad-plus-plus.org/) (Windows only)
-[Aptana Studio](http://www.brothersoft.com/aptana-studio-download-65879.html) (Max, Linux, Windows)
-[Komodo Edit](http://www.activestate.com/komodo-edit) (Max, Linux, Windows)
-[gedit](http://projects.gnome.org/gedit/) (Linux only, part of Gnome)
+* [Aptana Studio](http://www.brothersoft.com/aptana-studio-download-65879.html) (Max, Linux, Windows)
+* [Komodo Edit](http://www.activestate.com/komodo-edit) (Max, Linux, Windows)
+* [Notepad++](http://notepad-plus-plus.org/) (Windows only)
+* [gedit](http://projects.gnome.org/gedit/) (Linux only, part of Gnome)
 
 Commercial IDE's with free trial
 ---------------------------------
