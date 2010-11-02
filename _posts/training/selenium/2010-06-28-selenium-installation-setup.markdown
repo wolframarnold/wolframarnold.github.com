@@ -12,10 +12,38 @@ Selenium test scripts can simulate input, clicks, move-overs and most things a h
 Selenium then provides tools to verify that these user actions has the desired effect.  Selenium can check for page
 loads, for text on the page to appear or disappear, for certain elements to be present or nor present, etc.
 
-Selenium is also a fragmented playground of many different technologies.  In this training we focus on driving the browser
-through Ruby.
+Selenium is also a fragmented playground of many different technologies.  In this training we focus on driving the browser through Ruby.
 
-System Requirements
+Editor/IDE
+==========
+
+Experience in teaching classes has shown that most students find it easiest to use an editor with project view
+(i.e. a view of all the files in the directory in a side pane) or an IDE (Integrated Development Environment).
+
+That way, there is less confusion about where to find the files, or what files to modify.  Some also offer syntax
+highlighting.
+
+Here are some useful free choices:
+
+Free
+----
+[Notepad++](http://notepad-plus-plus.org/) (Windows only)
+[Aptana Studio](http://www.brothersoft.com/aptana-studio-download-65879.html) (Max, Linux, Windows)
+[Komodo Edit](http://www.activestate.com/komodo-edit) (Max, Linux, Windows)
+[gedit](http://projects.gnome.org/gedit/) (Linux only, part of Gnome)
+
+Commercial IDE's with free trial
+---------------------------------
+[Rubymine](http://www.jetbrains.com/ruby/download/) is my preferred editor and I'll use that for all the demos in class.
+
+Operating System
+================
+
+Selenium and Ruby can be installed and run on any on the major operating systems (Max, Linux, Windows).  That said, things tend to be easier, faster and better supported on Mac and Linux.  If you have a laptop you want to bring, you may do so, and you can prepare by installing the software and tools on this page.  If you don't have an up-to-date
+laptop, you can work off of our Ubuntu Linux machines which are well supported and very easy to use.  I run Ubuntu as primary operating system on my own laptop and will be using it throughout class.
+
+
+Software Requirements
 ===================
 
 Java
