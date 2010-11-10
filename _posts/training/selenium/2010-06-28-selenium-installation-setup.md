@@ -82,7 +82,7 @@ Please download the RubyGems package.
 [RubyGems 1.3.7](http://rubyforge.org/frs/download.php/70697/rubygems-1.3.7.zip)
 
 Once unzipped, open a command shell and run (via sudo or root on Mac & Linux):
-{% highlight bash %}
+{% highlight sh %}
   ruby setup.rb
 {% endhighlight %}
 
@@ -93,7 +93,7 @@ Gems
 
 Now that the RubyGems package management system is installed, we can install gems from the Internet.
 The RubyGems system already knows where to get them from, so all you need to do is this: (Use sudo or root on Mac & Linux)
-{% highlight bash %}
+{% highlight sh %}
   gem install rspec
   gem install rake
   gem install warnold-selenium-client
@@ -139,7 +139,7 @@ To run only one test, you can use _either one_ of the following:
 
 
 If all goes well, you should see output like:
-{% highlight bash %}
+{% highlight sh %}
   1 example, 0 failures
 {% endhighlight %}
 
