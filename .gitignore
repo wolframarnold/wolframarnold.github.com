@@ -1,4 +1,3 @@
 *~
-*.html
-_site/*
-.idea/*
+_site
+.idea
